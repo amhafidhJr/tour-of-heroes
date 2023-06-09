@@ -32,6 +32,8 @@ export class HeroDetailComponent {
 
  goBack(): void {
   this.location.back();
+  console.log("hello word");
+
  }
 
 }
